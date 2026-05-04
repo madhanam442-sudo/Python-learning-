@@ -1,0 +1,29 @@
+while True:
+	print("\n---Geometry---calculator---")
+	print("1. Square")
+	print("2. Rectangle")
+	print("3. Exit(veliya poga)")
+	
+	choice=input("Select a shape (1/2/3): ")
+	
+	if choice=="1":
+		a=float(input("Squre-oda side (a) sollunga: "))
+		print(f" Area: {a*a},Perimeter: {4*a}")
+		
+	elif choice=="2":
+		l=float(input("Length l:"))
+		w=float(input("Width w:"))
+		print(f"Area: {a*a},Perimeter: {2*(1+w)}")
+		
+	elif choice=="3":
+		print("okay,Bye")
+		break
+		
+	else:
+	
+		print("Choice thappu")
+		
+	again=input("\n try next time?(yes or no): ").lower()
+	if again!='yes':
+	   print("okay,Progarm ma finish pannalaam")
+	   break
