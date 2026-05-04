@@ -1,0 +1,29 @@
+for i in range(1,10):
+    print("\n--- Geometry Calculator ---")
+    print("1. Square")
+    print("2. Rectangle")
+    print("3. Exit (Veliya poga)")
+
+    choice = input("Entha shape select pandreenga? (1/2/3): ")
+
+    if choice == '1':
+        a = float(input("Square-oda side (a) sollunga: "))
+        print(f"Area: {a*a}, Perimeter: {4*a}")
+    
+    elif choice == '2':
+        l = float(input("Length: "))
+        w = float(input("Width: "))
+        print(f"Area: {l*w}, Perimeter: {2*(l+w)}")
+    
+    elif choice == '3':
+        print("Bye! Have a nice day.")
+        break  
+
+    else:
+        print("Thappana choice!")
+
+  
+    again = input("\nInnoru calculation panna poringala? (yes/no): ").lower()
+    if again != 'yes':
+        print("Okay, program-ai mudichukalam. Bye!")
+        break 
