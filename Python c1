@@ -1,0 +1,17 @@
+import turtle
+
+sc = turtle.Screen()
+sc.bgcolor("black")
+
+flower = turtle.Turtle()
+flower.speed(0)
+
+
+colors = ["yellow", "white", "cyan", "green"]
+for i in range(300):
+    flower.color(colors[i % 4])
+    flower.circle(100)
+    flower.forward(150)
+    flower.left(149)
+
+turtle.done()
