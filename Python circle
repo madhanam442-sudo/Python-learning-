@@ -1,0 +1,14 @@
+import turtle
+sc=turtle.Screen()
+sc.bgcolor("white")
+
+pen=turtle.Turtle()
+pen.speed(0)
+colors=["red","yellow","bluue"]
+for i in range(150):
+       pen.circle(100)
+       pen.color(colors[i%3])
+       pen.forward(i%1.2)
+       pen.left(149)
+       
+       turtle.done()
