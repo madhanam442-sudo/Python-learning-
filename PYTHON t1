@@ -1,0 +1,6 @@
+number=int(input("Entha table venum: "))
+print(f"{number} Table")
+for i in range(1,21):
+	
+	result=number*i
+	print(f"{number}*i= {result}")
