@@ -1,0 +1,11 @@
+secret_number=77
+
+while True:
+	guess=input("computer nenacha number enna?: ")
+	if guess=="exit":
+		break
+	n=int(guess)
+	if n ==secret_number:
+		print("valthukkal,Correct guess")
+	else:
+		print("illai ! try pannunga")
