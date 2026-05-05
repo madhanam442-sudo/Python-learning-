@@ -1,0 +1,7 @@
+a=120
+b=80
+sum=a+b
+difference=a-b
+print(f"kottal(addition): {sum}")
+print(f"kazhithal(subtraction): {difference}")
+	
