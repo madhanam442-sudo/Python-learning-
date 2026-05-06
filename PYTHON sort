@@ -1,0 +1,11 @@
+import pandas as pd
+
+My_data = {
+    'Name':['Arun' , 'Madhan' , 'Kumar' , 'Sathya' , 'Priya' , 'Ravi' , 'Divya' , 'Anbu' , 'Kavin' , 'Sara'],
+    'Age': [19, 21, 18, 25, 17, 30, 16, 22, 28, 15]}
+    
+
+df=pd.DataFrame(My_data)
+df_sorted=df.sort_values(by="Age")
+df_sorted.to_excel("sorted_list.xlsx",index=False)
+print("Age order-ra create panniyachi!")
