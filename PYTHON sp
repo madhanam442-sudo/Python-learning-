@@ -1,0 +1,14 @@
+import pandas as pd
+
+data = {
+    'Name': ['Arun', 'Madhan', 'Kumar', 'Sathya', 'Priya', 'Ravi', 'Divya', 'Anbu', 'Kavin', 'Sara'],
+    'Age': [19, 21, 18, 25, 17, 30, 16, 22, 28, 15]
+}
+
+df = pd.DataFrame(data)
+specific_person= df[df['Name'] == 'Madhan']
+
+specific_person.to_excel("filtered_list.xlsx", index=False)
+
+print("person")
+print(specific_person)
