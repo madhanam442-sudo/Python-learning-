@@ -1,0 +1,23 @@
+import pandas as pd
+
+
+resume_data = [
+    {"Category": "Name", "Details": "Madhanaprakash"},
+    {"Category": "Skills", "Details": "Python, Pandas, Math, Logic","Single dimension","Turtle"},
+    {"Category": "Project 1", "Details": "Data sheet management using Pandas"},
+    {"Category": "Project 2", "Details": "Math logic (Square, Cube, Even/Odd)"},
+    {"Category": "Project 3", "Details": "Secret number game"},
+    {"category":"Project 4","Details":"Straight line data list"},
+    {"category":"Project 5","Details":"Turtle drawing circle"}
+ ] 
+    
+
+
+
+df = pd.DataFrame(resume_data)
+
+
+df.to_excel("My_Resume_Data.xlsx", index=False)
+
+print("Data Sheet ready aaidichi!")
+print(df)
