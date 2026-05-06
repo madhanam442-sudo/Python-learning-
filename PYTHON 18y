@@ -1,0 +1,16 @@
+import pandas as pd
+
+
+data = {
+    'Name': ['Arun', 'Madhan', 'Kumar', 'Sathya', 'Priya', 'Ravi', 'Divya', 'Anbu', 'Kavin', 'Sara'],
+    'Age': [19, 21, 18, 25, 17, 30, 16, 22, 28, 15],
+    'Project': ['AI', 'Python', 'Excel', 'Web', 'Python', 'ML', 'Web', 'AI', 'Data', 'Excel']
+}
+
+df=pd.DataFrame(data)
+
+
+filtered_df=df[df['Age']>=18]
+filtered_df.to_excel('Name.xlsx',index=False,engine='openpyxl')
+print("onga folder la save ayiduchi!")
+print("filteted_df")
