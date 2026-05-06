@@ -1,0 +1,19 @@
+import pandas as pd
+
+
+my_data = {
+    'Name': ['Arun', 'Madhan', 'Kumar', 'Sathya', 'Priya', 'Ravi', 'Divya', 'Anbu', 'Kavin', 'Sara'],
+    'Age': [19, 21, 18, 25, 17, 30, 16, 22, 28, 15]
+}
+
+df = pd.DataFrame(my_data)
+
+
+filtered_df = df[df['Age'] > 20]
+
+
+filtered_df.to_excel('MyProjectSheet.xlsx', index=False, engine='openpyxl')
+
+print("--- Program Finished ---")
+print("Unga folder-la 'MyProjectSheet.xlsx' ready aaiduchu!")
+
