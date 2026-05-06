@@ -1,0 +1,17 @@
+import pandas as pd
+
+
+data_list = [
+    ["Madhan", 70, "Pass"],
+    ["Arun", 85, "Pass"],
+    ["Priya", 92, "Pass"]
+]
+
+ 
+df = pd.DataFrame(data_list, columns=['Name', 'Marks', 'Status'])
+df.to_excel("Single_list.xlsx",index=False/True)
+
+print(df)
+
+
+print("Average using Pandas:", df['Marks'].mean())
