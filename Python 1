@@ -1,4 +1,4 @@
 name="madhanaprakash"
 age="17"
 print("vanakkam"+name+"!")
-print("onakku"+age+"vasuthana")
+print("onakku"+age+"vayasuthana")
