@@ -1,0 +1,19 @@
+friends_list=['raj','mani','madhana','arun','gokul']
+while True:
+	name=input("Enter a search name : ")
+	
+	if name in friends_list:
+	
+		print("yes")
+		
+	
+	
+	
+		choice=input("Try another time: yes/no ")
+		if choice=="no":
+			print("Thank you so much")
+			break
+	else:
+		
+	
+		print("Try again")
