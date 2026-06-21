@@ -1,0 +1,31 @@
+def welcome_bot(name):
+	
+	
+	if name =="madhana":
+
+		print("Hello madhana ! enakku entha juice ready panni kudu")
+    
+		print("1.mango juice")
+		print("2.apple juice")
+	
+
+		choice=input("Entha juice venum :1/2 :")
+		if choice=="1":
+			print("Mango Juice ready panniyachi !")
+		elif choice=="2":
+			print("Apple Juice ready panniyachi !")
+		else:
+			print("Entha juice illa mam !")
+		
+		
+	else:
+		print("Welcome to "+ name + "  python class !")
+
+while True:
+    
+    user_name=input("Enter a name:  ")
+    if user_name=="exit":
+    	print("Thank you good bye !")
+    	break
+    welcome_bot(user_name)
+	
