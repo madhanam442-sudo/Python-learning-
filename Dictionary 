@@ -1,0 +1,2 @@
+shop={"Apple":20,"Orange":40,"Banana":25,"Grapes":40}
+print(shop["Orange"])
