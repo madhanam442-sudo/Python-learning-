@@ -1,0 +1,17 @@
+while True:
+	total_bill=0
+	while True:
+		price=int(input("Enter a item price :  "))
+		if price==0:
+			print("Bill finished")
+			break
+		total_bill=total_bill+price
+	print("Total amount : Rs.",total_bill)
+	choice=input("Thriuba bill pannanuma:yes/no:")
+	if choice=="yes":
+		print("_____")
+	elif choice=="no":
+		print("Bill closed")
+		break
+
+		
