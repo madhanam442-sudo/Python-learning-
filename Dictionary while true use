@@ -1,0 +1,11 @@
+shop={"Apple":20,"Orange":40,"Banana":25,"Grapes":40}
+while True:
+	item=input("Enter a item : ")
+	if item in shop:
+		print("Entha item erukku ethoda villai: ",shop[item])
+		
+	else:
+		print("sorry entha item illai ")
+		
+	
+	
