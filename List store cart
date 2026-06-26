@@ -1,0 +1,15 @@
+Available_item = ["rice", "oil", "sugar", "dal", "coffee", "tea", "soap", "shampoo", "salt", "paste"]
+cart=[]
+while True:
+	item=input("Enter a item:  ")
+
+
+	if item =="0":
+		print("item finish")
+		break
+	if item in Available_item:
+		cart.append(item)
+		print("Intha item bag la store ayituchi:  ",cart)
+	else:
+		print("Entha item kadaila illa ")
+		
