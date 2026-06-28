@@ -1,0 +1,19 @@
+#store la erukku ra item
+Available_item= ["rice", "oil", "sugar", "dal", "coffee", "tea", "soap", "shampoo", "salt", "paste"]
+#cart vandhu item-tha store panna
+cart=[ ]
+while True:
+#while True vandhu thirumba thirumba run aga
+	item=input("Enter a item : ")
+	if item =="0":
+		print("Store item finish ayiruchi ! ")
+		break
+	if item in Available_item:
+#enga cart.append kudutha item tha store panna
+		cart.append(item)
+		print("Neenga kette item : ",cart)
+	else:
+		print("Intha item enga kadai la illai !")
+#kadaichi print vandhu vanguna porula katta
+
+print("Motha porutkkal : ",cart)
