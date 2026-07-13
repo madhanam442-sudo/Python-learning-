@@ -1,0 +1,5 @@
+age=int(input("Your age enter : "))
+if age >=18:
+	print("Ticket price :Rs. 150")
+else:
+	print("Ticket price:Rs.100")
